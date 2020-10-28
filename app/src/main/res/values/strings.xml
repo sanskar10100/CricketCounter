@@ -16,4 +16,7 @@
     <string name="no_ball">No Ball</string>
     <string name="wide_ball">Wide Ball</string>
     <string name="who_will_bat_first">Who Will Bat First?</string>
+    <string name="team_b_score">Team B Score</string>
+    <string name="team_b_overs">Team B Overs</string>
+    <string name="textView_greetings">We\'ll just need a few details before starting the count!</string>
 </resources>

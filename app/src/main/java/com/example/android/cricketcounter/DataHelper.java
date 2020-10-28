@@ -8,6 +8,7 @@ public class DataHelper {
 	static String teamAName;
 	static String teamBName;
 	static int maxNumOfOvers;
+	static boolean teamAPlaying;
 
 	DataHelper(final String teamA, final String teamB, final int overs) {
 		teamAName = teamA;

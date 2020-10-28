@@ -42,7 +42,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/number_of_overs"
-        android:inputType="textPersonName"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText_teamB" />
@@ -65,7 +65,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
-        android:text="We'll just need a few details before starting the count!"
+        android:text="@string/textView_greetings"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold"
