@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CricketCounter</string>
+    <string name="team_a_name">Team A</string>
+    <string name="team_b_name">Team B</string>
+    <string name="number_of_overs">Number Of Overs</string>
+    <string name="submit">Submit</string>
+    <string name="team_a_score">Team A Score</string>
+    <string name="team_a_overs">Team A Overs</string>
+    <string name="_0_run">0 Run</string>
+    <string name="_1_run">1 Run</string>
+    <string name="_2_runs">2 Runs</string>
+    <string name="_3_runs">3 Runs</string>
+    <string name="_4_runs">4 Runs</string>
+    <string name="_6_runs">6 Runs</string>
+    <string name="wicket">Wicket</string>
+    <string name="no_ball">No Ball</string>
+    <string name="wide_ball">Wide Ball</string>
+    <string name="who_will_bat_first">Who Will Bat First?</string>
+</resources>
