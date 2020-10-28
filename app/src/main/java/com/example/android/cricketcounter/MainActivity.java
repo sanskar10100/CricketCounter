@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
 
 		// Set default values
 		if (teamAName.isEmpty()) {
-			teamAName = getString(R.string.team_b_name);
+			teamAName = getString(R.string.team_a_name);
 		}
 
 		if (teamBName.isEmpty()) {
-			teamBName = getString(R.string.team_a_name);
+			teamBName = getString(R.string.team_b_name);
 		}
 
 		if (numOfOvers == 0) {
