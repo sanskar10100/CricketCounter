@@ -8,14 +8,17 @@
 
     <TextView
         android:id="@+id/textView_teamBName"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
         android:text="@string/team_a_name"
         android:textAlignment="viewStart"
         android:textSize="24sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView_teamBScore"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/textView_teamBScore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/divider"
