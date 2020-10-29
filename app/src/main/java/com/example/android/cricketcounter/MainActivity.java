@@ -23,7 +23,10 @@ public class MainActivity extends AppCompatActivity {
 	public void setTeamNames(View view) {
 		String teamAName = ((EditText) findViewById(R.id.editText_teamA)).getText().toString();
 		String teamBName = ((EditText) findViewById(R.id.editText_teamB)).getText().toString();
-		int numOfOvers = Integer.parseInt(((EditText) findViewById(R.id.editText_maxOvers)).getText().toString());
+		EditText oversEditText = findViewById(R.id.editText_maxOvers);
+		int numOfOvers;
+		EditText wicketsEditText = findViewById(R.id.editText_maxNumOfWickets);
+		int numOfWickets;
 
 		// Set default values
 		if (teamAName.isEmpty()) {
@@ -34,14 +37,25 @@ public class MainActivity extends AppCompatActivity {
 			teamBName = getString(R.string.team_b_name);
 		}
 
-		if (numOfOvers == 0) {
+
+		if (oversEditText.getText().toString().isEmpty()) {
 			numOfOvers = 20;
+		} else {
+			numOfOvers = Integer.parseInt(oversEditText.getText().toString());
+		}
+
+		if (wicketsEditText.getText().toString().isEmpty()) {
+			numOfWickets = 10;
+		} else {
+			numOfWickets = Integer.parseInt(wicketsEditText.getText().toString());
 		}
 
 		// Set static names
 		DataHelper.teamAName = teamAName;
 		DataHelper.teamBName = teamBName;
 		DataHelper.maxNumOfOvers = numOfOvers;
+		DataHelper.MAX_WICKETS = numOfWickets;
+
 
 		// Move to Who Will Bat First chooser
 		Intent intent = new Intent(this, WhoBatsFirst.class);

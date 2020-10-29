@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CricketCounter</string>
+    <string name="app_name">Cricket Counter</string>
     <string name="team_a_name">Team A</string>
     <string name="team_b_name">Team B</string>
     <string name="number_of_overs">Number Of Overs</string>
@@ -19,4 +19,9 @@
     <string name="team_b_score">Team B Score</string>
     <string name="team_b_overs">Team B Overs</string>
     <string name="textView_greetings">We\'ll just need a few details before starting the count!</string>
+    <string name="_1st_innings_are_over">1st innings are over!</string>
+    <string name="continue_text">Continue</string>
+    <string name="wins">Wins</string>
+    <string name="new_game">New Game</string>
+    <string name="number_of_wickets_each">Number of Wickets Each</string>
 </resources>

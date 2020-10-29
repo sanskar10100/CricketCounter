@@ -8,8 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:fullBackupContent="true"
         android:theme="@style/Theme.CricketCounter">
-        <activity android:name=".TeamBScoreCount"></activity>
+        <activity android:name=".WinScreen"/>
+        <activity android:name=".TargetScreen" />
+        <activity android:name=".TeamBScoreCount" />
         <activity android:name=".TeamAScoreCount" />
         <activity android:name=".WhoBatsFirst" />
         <activity android:name=".MainActivity">

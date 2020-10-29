@@ -30,10 +30,12 @@ public class WhoBatsFirst extends AppCompatActivity {
 	 * @param view the clicked button
 	 */
 	public void setFirstBattingTeam(View view) {
+		DataHelper.teamABattingFirst = teamA.isChecked();
 		DataHelper.teamAPlaying = teamA.isChecked();
+		DataHelper.teamBPlaying = !teamA.isChecked();
 
 		// Launch score counting activity depending on the team
-		if (DataHelper.teamAPlaying) {
+		if (DataHelper.teamABattingFirst) {
 			startActivity(new Intent(this, TeamAScoreCount.class));
 		} else {
 			startActivity(new Intent(this, TeamBScoreCount.class));

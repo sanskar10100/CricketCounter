@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#cfd8dc"
     tools:context=".MainActivity">
 
     <EditText
@@ -52,11 +53,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:background="#9fa8da"
         android:onClick="setTeamNames"
         android:text="@string/submit"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_maxOvers" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_maxNumOfWickets" />
 
     <TextView
         android:id="@+id/textView_greeting"
@@ -72,6 +75,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_maxNumOfWickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:autofillHints=""
+        android:hint="@string/number_of_wickets_each"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_maxOvers" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

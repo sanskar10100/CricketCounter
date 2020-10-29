@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#cfd8dc"
     tools:context=".WhoBatsFirst">
 
     <RadioGroup
@@ -20,6 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/team_a_name"
+            android:textColor="#7B1FA2"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -29,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/team_b_name"
+            android:textColor="#C2185B"
             android:textSize="24sp"
             android:textStyle="bold" />
     </RadioGroup>
@@ -38,6 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
+        android:background="#9fa8da"
         android:onClick="setFirstBattingTeam"
         android:text="@string/submit"
         app:layout_constraintEnd_toEndOf="parent"
