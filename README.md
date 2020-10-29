@@ -7,7 +7,7 @@
 ## Screenshots:
 
 ![Start Screen](https://github.com/AritificialPhysics/resources/blob/main/Start%20Screen.jpg)
-![Batting Selector](https://github.com/AritificialPhysics/resources/blob/main/Who%20Bats%20First.jpg9)
+![Batting Selector](https://github.com/AritificialPhysics/resources/blob/main/Who%20Bats%20First.jpg)
 ![Team B Playing First](https://github.com/AritificialPhysics/resources/blob/main/Team%20B.jpg)
 ![Inning transition screen](https://github.com/AritificialPhysics/resources/blob/main/Transition%20Screen.jpg)
 ![Team A chasing](https://github.com/AritificialPhysics/resources/blob/main/Team%20A%20Target.jpg)
