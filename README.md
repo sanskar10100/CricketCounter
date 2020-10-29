@@ -6,7 +6,7 @@
 
 ## Screenshots:
 
-![Start Screen](https://drive.google.com/file/d/1SdWrHP6RUKsAV7dDvufSWUCAu_W56K2_)
+![Start Screen](https://github.com/AritificialPhysics/resources/blob/main/Start%20Screen.jpg)
 ![Batting Selector](https://drive.google.com/file/d/1bmCAuI-o280FPutBbzEyUlzOp7kliIM9)
 ![Team B Playing First](https://drive.google.com/file/d/1Ka55SlGs5m1oc_u7uh4s6hMpkcaV139W)
 ![Inning transition screen](https://drive.google.com/file/d/1zQY4LYsEUWyMBdRr_5u6b1QDWsmR4dJ4)
